@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {background-color: rgba(211, 216, 216, 0.794);
+color: rgb(5, 5, 5);
+font-size: 20px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;}
+.foto {
+    border-radius: 28px;
+    box-shadow: 8px 8px 16px; rgba(0,0,0,0,25);
+
+}
+a { color: black;text-decoration: none;
+ 
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{ color: rgb(85, 51, 119);
+    
+}
+a:visited{color: cornsilk;}
+.info p {
+    color: rgb(14, 13, 12);
+    margin: 0;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+.social{ background-color: rgba(9, 201, 235, 0.116);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+
+}
+.container { max-width: 800px;
+    margin: auto;
+
+
+}
+.info{
+    margin-bottom: 20px;}
+    .info-text{margin-left: 40px;}
+
+.box-model >div {
+    float:left;
+    background: rgba(207, 203, 203, 0.459);
+width: 25%;height: 200px;}
+.card 
+{padding: 15px 20px;
+background-color: red;margin-bottom: 20px;border-radius: 20px;} 
+.bg1{background-color: rgba(151, 151, 60, 0.678);}
+.bg2{   background:transparent}
+.bg3{background-color: rgba(189, 53, 53, 0.616);}
+.table{width: 100%;}
+.table td{padding-bottom: 10px; }
+table td:nth-child(2), 
+table td:nth-child(3){color: rgb(104, 100, 100);}
+.form-group label{display: block;}
+.form-group input,.form-group textarea{width: 100%;
+     box-sizing: border-box;
+     border:none;
+
+outline:none;
+background: transparent;
+border-bottom: 1px solid
+#ccc;} 
+.btn{background: turquoise;
+padding: 15px 20px;cursor: pointer;}
+@media(max-width:700px) {.info
+    {display: block;
+        text-align: center;}}
